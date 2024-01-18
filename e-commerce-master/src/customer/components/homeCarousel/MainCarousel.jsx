@@ -8,6 +8,11 @@ const MainCarousel = () => {
      return (
         <AliceCarousel
         items={items}
+        autoPlay
+        disableButtonsControls
+        autoPlayInterval={1000}
+        infinite
+        
     />
   )
 }
