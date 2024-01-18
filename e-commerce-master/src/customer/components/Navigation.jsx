@@ -308,7 +308,7 @@ return (
             </button>
 
             {/* Logo */}
-            <div className="ml-4 flex lg:ml-0">
+            <div className="ml-4 flex lg:ml-0 icon-small">
               <a href="#">
                 <span className="sr-only">Your Company</span>
                 <img
@@ -443,7 +443,7 @@ return (
               </div>
 
               {/* Search */}
-              <div className="flex lg:ml-6">
+              <div className="flex lg:ml-6 icon-small">
                 <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
                   <span className="sr-only">Search</span>
                   <MagnifyingGlassIcon className="h-6 w-6" aria-hidden="true" />
@@ -451,8 +451,8 @@ return (
               </div>
 
               {/* Cart */}
-              <div className="ml-4 flow-root lg:ml-6">
-                <a href="#" className="group -m-2 flex items-center p-2">
+              <div className="ml-4 flow-root lg:ml-6 icon-small">
+                <a href="#" className="group -m-2 flex items-center p-2 ">
                   <ShoppingBagIcon
                     className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                     aria-hidden="true"
