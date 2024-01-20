@@ -15,6 +15,7 @@ module.exports = {
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import zIndex from '@mui/material/styles/zIndex'
 
 const navigation = {
 categories: [
@@ -163,7 +164,7 @@ return (
           <div className="fixed inset-0 bg-black bg-opacity-25" />
         </Transition.Child>
 
-        <div className="fixed inset-0 z-40 flex">
+        <div className="fixed inset-0 z-40 flex ">
           <Transition.Child
             as={Fragment}
             enter="transition ease-in-out duration-300 transform"
@@ -173,7 +174,7 @@ return (
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
-            <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl">
+            <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl " >
               <div className="flex px-4 pb-2 pt-5">
                 <button
                   type="button"

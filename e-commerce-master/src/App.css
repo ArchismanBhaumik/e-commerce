@@ -4,12 +4,9 @@
  margin-left: auto;
  margin-right: auto;
  margin-top: 1%;
+ z-index: -10;
 }
-.navbar {
-  z-index: 1000;
+button:focus{
+  outline: none;
 }
-.dropdown {
-  z-index: 1001;
-  position: absolute; /* or relative, depending on your layout */
-  /* Other styles */
-}
+
